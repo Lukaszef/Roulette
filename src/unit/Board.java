@@ -34,6 +34,7 @@ public class Board {
 	public BoardField getFieldById(int fieldId) {
 		for (BoardField boardField : fields) {
 			if (boardField.getNumber() == fieldId)
+				//test
 				return boardField;
 		}
 		throw new RuntimeException("There is not fields [" + fieldId + "]");
